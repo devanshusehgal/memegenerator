@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.preloader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+@media only screen and (min-width: 993px) {
+    .brand-logo {
+        left: 15px;
+    }
+}
+
+a {
+    cursor: pointer;
+}
+
+.page {
+    padding: 0 20px;
+}
+
+.image-thumb {
+    cursor: pointer;
+    height: 150px;
+    padding: 0 3px 6px !important;
+}
+
+.image-thumb>div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    border: 1px solid grey;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.material-tooltip {
+    background-color: #4caf50;
+}
+
+.modal {
+    height: 90% !important;
+    max-height: 90% !important;
+}
+
+.mg {
+    margin-bottom: -10px;
+}
+
+.mg-image {
+    padding: 0 !important;
+}
+
+.mg-image>div {
+    position: relative;
+    overflow: hidden;
+}
+
+.mg-image>div>img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.text-holder {
+    position: absolute;
+    padding: 0 5px;
+    font-family: impact;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: #000 0px 0px 1px, #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px, #000 0px 0px 5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.select-dropdown {
+    max-height: 200px;
+}
+
+.text-manage {
+    margin-top: 10px;
+}
+
+.text-manage > a {
+    margin: 0 5px;
+}
+
+.mg-props {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.mg-props .row {
+    margin-bottom: -5px !important;
+}
+
+.mg-props .input-field {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.new-box-holder {
+    padding: 30px 0;
+}
+
+footer {
+    padding: 0 !important;
+}
+
+.invisible {
+    display: none;
+}
+
+/* #temp {
+    position: absolute;
+} */
